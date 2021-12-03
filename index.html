@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mobile Music Player</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css" />
+</head>
+
+<body>
+  <div class="main">
+    <!--Top Bar---->
+    <div class="top-bar">
+      <button id="slide"><i class="fas fa-chevron-right"></i></button>
+      <div class="option">
+        <button><i class="fas fa-music"></i></button>
+        <button><i class="fas fa-volume-up"></i></button>
+        <button><i class="fas fa-edit"></i></button>
+      </div>
+      <button id="openlist">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <!-- Playing Part -->
+
+    <div class="playing-part">
+      <div class="track-img">
+        <img src="" alt="" />
+      </div>
+      <div class="track-title">
+        <p class="title">First Title</p>
+        <p class="artist">First Artist</p>
+      </div>
+    </div>
+
+    <!-- Control Part -->
+
+    <div class="control-part">
+      <div class="volume-slider">
+        <!-- <input type="range" min="0" max="100" value="0" id="slider" /> -->
+        <div id="slider"></div>
+        <div id="currenttime"></div>
+      </div>
+      <div class="main-btns">
+        <div class="control-btns">
+          <button id="pre"><i class="fas fa-step-backward"></i></button>
+          <button id="play"><i class="fas fa-play"></i></button>
+          <button id="next"><i class="fas fa-step-forward"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <!----Playlist Song -->
+
+    <div class="playlist">
+      <div class="p-song">
+        <p class="p-title">first title</p>
+        <p class="p-artist">First Artist</p>
+        <button><i class="fas fa-play"></i></button>
+      </div>
+      <div class="p-song">
+        <p class="p-title">first title</p>
+        <p class="p-artist">First Artist</p>
+        <button><i class="fas fa-play"></i></button>
+      </div>
+      <div class="p-song">
+        <p class="p-title">first title</p>
+        <p class="p-artist">First Artist</p>
+        <button><i class="fas fa-play"></i></button>
+      </div>
+      <div class="p-song">
+        <p class="p-title">first title</p>
+        <p class="p-artist">First Artist</p>
+        <button><i class="fas fa-play"></i></button>
+      </div>
+      <div class="p-song">
+        <p class="p-title">first title</p>
+        <p class="p-artist">First Artist</p>
+        <button><i class="fas fa-play"></i></button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
